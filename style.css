@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#nav{
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: #ca3232; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 45px 65px;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+#nav-part1 h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+#content{
+    padding: 40px 65px;
+    margin-top: 60px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+#content h1{
+    margin-top: 44px;
+    line-height: 165px;
+    font-size: 180px;
+    font-weight: 500;
+    letter-spacing: -9px;
+    word-spacing: 12px;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+#case h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+ #projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 65px ;
+    gap:  80px;
+ }
+ .elem{
+    width: 50%;
+ }
+ .elem-img{
+    height: 770px;
+    width: 100%;
+    background-color: rgb(173, 209, 220);
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+ }
+ #moto1{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/800px-Sketch_Logo.svg.png);
+ }
+ #moto2{
+    background-image: url(img3.png);
+ }
+ #bottom{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 40px 0;
+
+ }
+ #bottom i{
+    padding: 15px 30px;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: 800;
+ }
+ #bottom i:hover{
+    background-color: black;
+    color: white;
+ }
+ #bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+ }
+ #bottom h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+ }
+ #name:hover{
+    border-bottom: 4px solid blueviolet;
+ }
+ #nav-part2 h4{
+    font-size: 30px;
+    font-weight: 30px;
+ }
